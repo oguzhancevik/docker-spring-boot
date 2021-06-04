@@ -91,6 +91,20 @@ Tüm konteynerları silmek için bu komutlar kullanılır.
 - ```EXPOSE``` İmaj port numarasını ifade eder.
 - ```VOLUME``` İmaja paylaşılacak/geçirilecek dosyaları ifade eder.
 
+### Docker Compose
+Docker Compose, içerisinde bir ya da birden fazla container bulunduran bir konfigürasyon dosyasıdır. 
+Bu sayede birbiriyle etkileşimli çalışması gereken uygulamalarınızı tek bir dosyada birleştirip kullanabilirsiniz.
+
+### Docker Compose Komutları
+- ```docker-compose build <service_name>``` docker-compose.yml dosyasında yaratılan servisleri build eder.
+- ```docker-compose up``` docker-compose.yml dosyasını çalıştırır ve servisleri ayağa kaldırır.
+- ```docker-compose logs``` Docker Compose loglarına erişebilirsiniz.
+- ```docker-compose down``` Docker Compose sonlandırır.
+
+
+
+
 ### Kaynaklar
 - https://www.yusufsezer.com.tr/docker/
 - https://www.youtube.com/watch?v=FlSup_eelYE
+- https://link.medium.com/g2P2K5tDOgb
